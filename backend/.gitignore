@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.log
+.pytest_cache/
+.env
+todo_app.log
