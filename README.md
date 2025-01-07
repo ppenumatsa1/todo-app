@@ -86,7 +86,7 @@ The frontend is built using React and is structured as follows:
     ```sh
     cd backend
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
     export PYTHONPATH=./backend  # On Windows use `$env:PYTHONPATH = "./backend"`
     pip install -r requirements.txt
     ```
@@ -98,7 +98,7 @@ The frontend is built using React and is structured as follows:
 
 5. Install the required dependencies for the frontend:
     ```sh
-    cd ../frontend
+    cd frontend
     export NODE_OPTION=--openssl-legacy-provider  # On Windows use `$env:PYTHONPATH = "$env:NODE_OPTIONS="--openssl-legacy-provider""`
                             
     npm install
