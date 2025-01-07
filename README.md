@@ -1,6 +1,6 @@
 # TODO Application
 
-This project is a TODO application that implements CRUD operations using a FastAPI backend and a React frontend. The application allows users to create, read, update, and delete TODO items.
+This project is a TODO application that implements CRUD operations using a FastAPI backend, a React frontend, and PostgreSQL as the database. The application allows users to create, read, update, and delete TODO items.
 
 ## Project Structure
 
@@ -73,7 +73,7 @@ The frontend is built using React and is structured as follows:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/todo-app.git
+    git clone https://github.com/ppenumatsa1/todo-app
     cd todo-app
     ```
 
